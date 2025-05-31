@@ -3227,7 +3227,7 @@ body {
   }
 }
 
-/* <<<===>>> */
+
 
 .cart {
   width: 50px;
@@ -3243,7 +3243,7 @@ body {
   margin-top: 11px;
 }
 
-.m1_main .call_num {
+.aside .call_num {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -3251,27 +3251,27 @@ body {
   margin-top: 10px;
 }
 
-.m1_main .call_num .call {
+.aside .call_num .call {
   width: 35px;
   height: 35px;
   border: 1px solid #000;
   border-radius: 100%;
 }
 
-.m1_main .call_num .call img {
+.aside .call_num .call img {
   width: 21px;
   height: 21px;
   margin-left: 5px;
   margin-top: 6px;
 }
 
-.m1_main h4 {
+.aside h4 {
   font-weight: 400;
   font-size: 16px;
   margin-left: 72px;
   margin-top: 5px;
 }
-.m1_main h2 {
+.aside h2 {
   font-weight: 700;
   font-size: 20px;
   width: 260px;
@@ -3280,11 +3280,11 @@ body {
   margin-top: 20px;
 }
 
-.m1_main h2 span {
+.aside h2 span {
   color: #F4511E;
 }
 
-.m1_main .m_h3 h3 {
+.aside .m_h3 h3 {
   font-weight: 400;
   font-size: 15px;
   line-height: 150%;
@@ -3293,24 +3293,24 @@ body {
   margin-top: 10px;
 }
 
-.m1_main .m_h3 h3 span {
+.aside .m_h3 h3 span {
   text-decoration: underline;
 }
 
-.m1_main .p {
+.aside .p {
   width: 100%;
   height: 42px;
   background-color: #fff;
   margin-top: 15px;
 }
 
-.m1_main .p p {
+.aside .p p {
   font-weight: 400;
   font-size: 18px;
   margin-left: 16px;
 }
 
-.m1_main .p p span {
+.aside .p p span {
   font-weight: 700;
 }
 
