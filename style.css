@@ -3200,10 +3200,10 @@ banner_1 .banner_1 .pos_imgs .pos_img2 img {
 
 .sidebar a {
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
+  color: #aa1212;
+  font-size: 22px;
   padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeeed3;
 }
 
 .sidebar.show {
@@ -3216,7 +3216,7 @@ banner_1 .banner_1 .pos_imgs .pos_img2 img {
   font-size: 22px;
   margin-bottom: 20px;
   cursor: pointer;
-  color: #555;
+  color: #606360;
 }
 
 @media (max-width: 320px) {
@@ -4715,4 +4715,23 @@ banner_1 .banner_1 .pos_imgs .pos_img2 img {
   display: block;
 }
 
-/* <<==>> */
+#catalogButton {
+  width: 264px;
+  height: 44px;
+  border-radius: 30px;
+  border: 1px solid #FF4D00;
+  box-shadow: 0px 0px 20px 0px #FF4D00;
+  background-color: #FF4D00;
+  margin-left:800px;
+  font-size: 16px;
+ 
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+ transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  color: #ffff;
+  cursor: pointer;
+}
+#catalogButton.active {
+  transform: translateX(0);
+}

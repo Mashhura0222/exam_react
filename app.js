@@ -93,3 +93,10 @@ button.addEventListener("click", () => {
 document.getElementById("closeWindow").addEventListener("click", function () {
   document.getElementById("infoPopup").style.display = "none";
 });
+button.addEventListener("click", () => {
+  popup.classList.toggle("active");
+});
+
+closeBtn.addEventListener("click", () => {
+  popup.classList.remove("active");
+});
